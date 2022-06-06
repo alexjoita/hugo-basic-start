@@ -5,8 +5,11 @@ body {
 }
 
 .site-header {
-  border-bottom: 5px solid rgb(255, 0, 0);
-  padding: 0.5em 1em;
+  border-bottom: 3px solid rgb(59, 29, 192);
+  border-top: 3px solid rgb(59, 29, 192);
+  border-left: 3px solid rgb(59, 29, 192);
+  border-right: 3px solid rgb(59, 29, 192);
+  padding: 1px 1px;
   background-color: rgb(20, 13, 37);
 }
 
@@ -21,21 +24,22 @@ body {
 }
 
 .site-identity h1 {
-  font-size: 1em;
-  margin: 0.7em 0 0.3em 0;
+  font-size: 5px;
+  margin: 5px 0 2.5px 0;
   display: inline-block;
 }
 
 .site-identity img {
-  max-width: 100px;
+  max-width: 150px;
+  max-height: 150px;
   float: left;
-  margin: 0 10px 0 0;
-  max-width: 100px;
+  margin: 10px 10px 10px 10px;
 }
 
 /*NAVIGATION */
 .site-navigation {
-  background-color: rgb(217, 255, 0);
+  background-color: rgb(157, 255, 0);
   display: inline-flex;
   padding: 8px;
+  color: yellow;
 }
