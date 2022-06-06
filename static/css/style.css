@@ -1,0 +1,41 @@
+/* HEADER */
+body {
+  font-family: Helvetica;
+  margin: 0;
+}
+
+.site-header {
+  border-bottom: 5px solid rgb(255, 0, 0);
+  padding: 0.5em 1em;
+  background-color: rgb(20, 13, 37);
+}
+
+.site-header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.site-identity {
+  float: left;
+}
+
+.site-identity h1 {
+  font-size: 1em;
+  margin: 0.7em 0 0.3em 0;
+  display: inline-block;
+}
+
+.site-identity img {
+  max-width: 100px;
+  float: left;
+  margin: 0 10px 0 0;
+  max-width: 100px;
+}
+
+/*NAVIGATION */
+.site-navigation {
+  background-color: rgb(217, 255, 0);
+  display: inline-flex;
+  padding: 8px;
+}

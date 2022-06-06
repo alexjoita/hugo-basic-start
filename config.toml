@@ -1,0 +1,23 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Test site'
+
+[menu]
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts"
+weight = 10
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/pages/about"
+weight = 20
+
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/pages/contact"
+weight = 20
