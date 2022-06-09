@@ -1,8 +1,18 @@
-</main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{{ partial "meta.html" . }}
 	
-<footer>
-	<p>&copy; {{ .Site.Title }}{{ dateFormat "Monday, Jan 2, 2006" now }}</p>
-</footer>
-
+</head>
+<body>
+	<footer class="site-footer">
+		<div class="footer-text">	
+			<p>&copy; {{ .Site.Title }} Date: {{ dateFormat "Monday, Jan 2, 2006" now }}</p>
+		</div>
+	</footer>
 </body>
+
+
+
+
 </html>
